@@ -32,7 +32,7 @@ export const Profile = ({ title, pdf, subTitle}: ContentProp): React.JSX.Element
       {/*<iframe className="rounded" src={pdf} width="100%" height="600px" />*/}
       <embed 
         src={pdf} 
-        className="bg-secondary rounded-4"
+        className="rounded-3 bg-white text-dark"
         type="application/pdf" 
         width="100%" 
         height="600px" 
