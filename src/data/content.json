@@ -1,0 +1,70 @@
+{
+  "leading": {
+    "title": "Looking for a professional mobile & web application developer ?",
+    "sub_title": "Search no further!",
+    "content": "We develop mobile applications for both Android and iOS tailored specifically to reflect your business ideas and concepts. Your app will be published on both Google Play Store and Apple Store; while for the web, your app is developed to be dynamic, reponsive, interactive, secured, and highly maintainable."
+  },
+  "projects": [ 
+    {
+    "title": "SmartSaver",
+    "content": "SmartSaver is a Fintech application developed to help users pay bills, make payments, access laons, save money and exchange foreign currencies.",
+    "subTitle": "A Fintech App for Savings, Bills, Loans, Payments and more",
+    "iosLink": "#",
+    "androidLink": "https://play.google.com/store/apps/details?id=ng.smartsaver",
+    "id": "ss",
+    "is_app": true
+    },{
+    "title": "MeterToken",
+    "content": "Metertoken is a bill payment application developed to help users pay and generate electricity tokens and water at the comfort of their homes",
+    "subTitle": "The leading electricity and water bill payment and token purchase App ",
+    "iosLink": "https://apps.apple.com/us/app/metertoken/id1580150842",
+    "androidLink": "https://play.google.com/store/apps/details?id=com.metertoken",
+    "id": "mt",
+    "is_app": true
+    }, {
+    "title": "PSA Logistics",
+    "content": "PSA Logistics is a logistics application that helps customer make orders for pickup and deliveries; and for riders to earn money while carrying out order deliveries.",
+    "subTitle": "Order and Delivery application at your comfort",
+    "iosLink": "https://apps.apple.com/ng/app/psa-logistics/id6464110237",
+    "androidLink": " https://play.google.com/store/apps/details?id=com.psalogistics.app",
+    "id": "ps",
+    "is_app": true
+  },{
+    "title": "Valuepay",
+    "content": "ValuePay is a powerful payment solution system empowering the African market, people and businesses to thrive.",
+    "subTitle": "Fintech company",
+    "iosLink": "",
+    "androidLink": "https://www.valuepayng.com/",
+    "id": "https://firebasestorage.googleapis.com/v0/b/app-developer-c20c4.appspot.com/o/vp.png?alt=media&token=f1696b94-6922-4a84-90f1-a8e09ca749a9",
+    "is_app": false
+  },{
+    "title": "SmartSaver",
+    "content": "SmartSaver aims to provide smart, flexible and disciplined financial products, high yield earning on savings, insurance and access to cheap loans in a unique secured platform.",
+    "subTitle": "Financial Application",
+    "iosLink": "",
+    "androidLink": "https://smartsaver.ng/",
+    "id": "https://firebasestorage.googleapis.com/v0/b/app-developer-c20c4.appspot.com/o/ss.png?alt=media&token=923eb9d8-e41b-4881-9029-4aa1055c791a",
+    "is_app": false
+  },{
+    "title": "MeterToken",
+    "content": "MeterToken Nigeria is a cutting-edge technology company that provides an innovative solution to the payment of electricity and water utilities in Nigeria. ",
+    "subTitle": "Bill Payment Platform",
+    "iosLink": "",
+    "androidLink": "https://metertoken.ng/",
+    "id": "https://firebasestorage.googleapis.com/v0/b/app-developer-c20c4.appspot.com/o/mt.png?alt=media&token=73084cc1-f5f8-4913-b06b-1f02df862537",
+    "is_app": false
+  }, {
+    "title": "Amtel Funding",
+    "content": "AmtelWebFunding (AWF) is a fundraising platform for everyone, anywhere, and in any society.",
+    "subTitle": "Fundraising Platform",
+    "iosLink": "",
+    "androidLink": "https://amtelwebfunding.com/",
+    "id": "https://firebasestorage.googleapis.com/v0/b/app-developer-c20c4.appspot.com/o/awf.png?alt=media&token=5534e25c-f84d-4c11-9649-263a56067d98",
+    "is_app": false
+  }],
+  "contact": {
+    "title": "Contact me",
+    "subTitle": "Available Monday to Friday 10 AM - 11 PM",
+    "content": "Address: Block 80 Area B last road, Abuja, Nigeria, or No. 55, 6th avenue, gwarinpa, Abuja"
+  }
+}

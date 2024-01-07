@@ -1,38 +1,174 @@
+
+html, body{
+  overflow-x: hidden;
+  color: #a89e8a;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-module{
+  background: rgb(14,20,31);
+  background: -moz-linear-gradient(264deg, rgba(14,20,31,0) 5%, rgba(14,20,31,1) 73%);
+  background: -webkit-linear-gradient(264deg, rgba(14,20,31,0) 5%, rgba(14,20,31,1) 73%);
+  background: linear-gradient(264deg, rgba(14,20,31,0) 5%, rgba(14,20,31,1) 73%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e141f",endColorstr="#0e141f",GradientType=1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.active-menu{
+  background: rgb(14,20,31);
+  background: -moz-radial-gradient(circle, rgba(14,20,31,1) 30%, rgba(14,20,31,0.43469887955182074) 100%);
+  background: -webkit-radial-gradient(circle, rgba(14,20,31,1) 30%, rgba(14,20,31,0.43469887955182074) 100%);
+  background: radial-gradient(circle, rgba(14,20,31,1) 30%, rgba(14,20,31,0.43469887955182074) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e141f",endColorstr="#0e141f",GradientType=1);
+}
+
+#left-menu{
+  position: relative;;
+}
+
+.lone-bg{
+  background-color: rgba(14,20,31, 1);
+}
+
+.port-image-module::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background: rgb(14,20,31);
+  background: -moz-linear-gradient(180deg, rgba(14,20,31,0) 23%, rgba(14,20,31,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(14,20,31,0) 23%, rgba(14,20,31,1) 100%);
+  background: linear-gradient(180deg, rgba(14,20,31,0) 23%, rgba(14,20,31,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e141f",endColorstr="#0e141f",GradientType=1);
+}
+
+.left-nav{
+  background: rgb(14,20,31);
+  background: linear-gradient(90deg, rgba(14,20,31,1) 0%, rgba(14,20,31,0) 68%);
+}
+
+.right-nav{
+  background: rgb(14,20,31);
+  background: linear-gradient(90deg, rgba(14,20,31,0) 0%, rgba(14,20,31,1) 100%);
+}
+
+
+/* Small */
+@media screen and (max-width: 992.89px){
+  .main-header{
+    font-weight: 900;
+    font-size: 2em;
+    font-family: 'Prompt', sans-serif !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .port-header{
+    font-weight: 900;
+    font-size: 1.7em;
+    font-family: 'Prompt', sans-serif !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-content-container{
+    overflow: hidden;
   }
+
+  .sub-header{
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Prompt', sans-serif !important;
+    color: #909cb3 !important;
+  }
+
+  .d-font-size{
+    font-size:large;
+    font-weight: 500;
+  }
+  #menu .nav-item a:hover, #menu .nav-item a:active, #menu .nav-item a:focus,  #menu .nav-item.active-menu a.nav-link{
+    color: #a89e8a !important;
+  }
+  #menu .nav-item a{
+    color: #909cb3 !important;
+    font-weight: 800;
+    font-size: .8em;
+  }
+
+  #my-projects, .left-nav, .right-nav{
+    height: auto !important;
+    min-height: 800px;
+  }
+
+  
+}
+
+.separator{
+  min-width: 100%;
+  min-height: 80px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 0.5rem;
+  background-color: #374051;
+  box-shadow: inset 0 0 0 1px #49556c;
+  border: 0.2rem solid #1b2437;
+}
+::-webkit-scrollbar{
+  width: 1rem;
+  height: 1rem;
+  background-color: #1b2437;
+}
+/*Large*/
+@media screen and (min-width: 992.89px){
+  #my-projects, .left-nav, .right-nav{
+    min-height: 600px;
+  }
+  .active-menu{
+    min-width: 180px;
+    border-left: 4px solid goldenrod;
+  }
+  .main-header{
+    font-weight: 900;
+    font-size: 4em;
+    font-family: 'Prompt', sans-serif !important;
+  }
+  .port-header{
+    font-weight: 900;
+    font-size: 2.9em;
+    font-family: 'Prompt', sans-serif !important;
+  }
+  .sub-header{
+    font-weight: 700;
+    font-size: 2em;
+    color: #909cb3 !important;
+    font-family: 'Prompt', sans-serif !important;
+  }
+
+  .d-font-size{
+    font-size: x-large;
+    font-weight: 600;
+  }
+  .inner-left{
+    position: fixed;
+    width: 250px;
+    min-height: 100vh;
+    border-right: 1px solid rgba(108,117,125, 1);
+  }
+  .main-content-container{
+    min-height: 100vh;
+    position: static;
+    width: 100%;
+    margin-left: 250px;
+    overflow: hidden;
+  }
+  #menu .nav-item a:hover, #menu .nav-item a:active, #menu .nav-item a:focus, #menu .nav-item.active-menu a.nav-link {
+    color: #a89e8a !important;
+  }
+  #menu .nav-item a{
+    color: #909cb3 !important;
+    font-weight: 800;
+    font-size: 1.5em;
+  }
+  
 }

@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Simple Profile app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### `Instructions`
+
+This app uses firebase for hosting and therefore to use it, you need to create a filebase app and supply the environment variables in the firebaseConfig file.
+
+You also need to initialize firebase in the root folder of the app follow these guidlines[Adding firebase to react app with typescript](https://www.freecodecamp.org/news/how-to-deploy-a-react-app-with-firebase/)
 
 ## Available Scripts
 
