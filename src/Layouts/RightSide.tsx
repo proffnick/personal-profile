@@ -83,7 +83,6 @@ const MainContents = () => {
       nextChild?.classList.add("current-slide");
       // update reference
       // reveal the nest chil
-      SR.destroy();
     }
 
     
@@ -122,7 +121,7 @@ const MainContents = () => {
             <h3 className="main-header text-white">Recent Projects</h3>
           </div>
           <div 
-              className="mb-5 rounded-4 py-5 d-flex align-items-center" 
+              className="mb-5 rounded-4 py-5 d-flex align-items-center lone-bg" 
               id="my-projects" 
               style={{ 
                 position: "relative",
@@ -143,7 +142,7 @@ const MainContents = () => {
                   top: "50%",
                   transform: "translateY(-50%)",
                   left: 0
-                  }} className="position-absolute btn btn-outline-light border-0 text-start">
+                  }} className="position-absolute btn btn-outline-light border-0 text-start nav-button">
                     <i style={{fontSize: "2.5rem"}} className="bi bi-chevron-compact-left text-white-30"/>
                 </div>
             </div>
@@ -177,7 +176,7 @@ const MainContents = () => {
                   top: "50%",
                   transform: "translateY(-50%)",
                   right: 0
-                  }} className="position-absolute btn btn-outline-light border-0 text-end">
+                  }} className="position-absolute btn btn-outline-light border-0 text-end nav-button">
                     <i style={{fontSize: "2.5rem"}} className="bi bi-chevron-compact-right text-white-30"/>
                 </div>
             </div>

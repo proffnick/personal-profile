@@ -101,7 +101,10 @@ html, body{
     min-height: 800px;
   }
 
-  
+  .nav-button{
+    top: 20% !important;
+    transform: translateY(20%) !important;
+  }
 }
 
 .separator{

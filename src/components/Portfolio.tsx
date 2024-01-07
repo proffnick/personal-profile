@@ -19,7 +19,7 @@ export const Portfolio = forwardRef<Ref, PortfolioProp>( (props, ref) => {
        }}
       >
       <div className="row m-0 p-0 mb-lg-3 align-items-center">
-        <div className="col-12 col-lg-6 mb-0 mb-lg-3 port-image-module position-relative">
+        <div className="col-12 col-lg-6 mb-5 mb-lg-3 port-image-module position-relative">
           <img src={image} className="rounded-3 img img-fluid d-block mx-auto me-lg-auto" style={{maxHeight: 300}} />
         </div>
         <div className="col-12 col-lg-6 ps-0 ps-lg-3">
